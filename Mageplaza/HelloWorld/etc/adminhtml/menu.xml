@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mageplaza_HelloWorld::helloworld" title="Cereri Informatii" module="Mageplaza_HelloWorld" sortOrder="51" resource="Mageplaza_HelloWorld::helloworld"/>
+        <add id="Mageplaza_HelloWorld::post" title="Cereri Informatii Produse" module="Mageplaza_HelloWorld" sortOrder="10" action="mageplaza_helloworld/post" resource="Mageplaza_HelloWorld::post" parent="Mageplaza_HelloWorld::helloworld"/>
+       
+    </menu>
+</config>
